@@ -18,7 +18,7 @@
     font-size: 16px;
     position:absolute;
     left: 20%;
-    top: 18%;
+    top: 45%;
     transform: translateX(-50%);
 }
 .tlf {
@@ -26,8 +26,8 @@
     margin: 5px 0 0 20px;
     font-size: 16px;
     position:absolute;
-    left: 14.6%;
-    top: 23%;
+    left: 15.6%;
+    top: 50%;
     transform: translateX(-50%);
 }
 .tittel {
@@ -72,9 +72,20 @@
 .elsefooter {
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 5px;
-    margin: auto;
+    margin:auto;
+    padding: 2px;
     bottom: 0;
-    width: 25%;
+    width: 15%;
+    background-color: gray;
     
+}
+.kontakt {
+    line-height: 0.2;
+}
+footer {
+    background-color: gray;
+}
+.CR {
+    margin-top: 2px;
+    margin-bottom: -10px;
 }
