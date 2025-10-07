@@ -109,6 +109,15 @@ body {
   border-radius: 10px;
 }
 
+.video-section h1 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-left: 4px solid #667eea;
+  padding-left: 20px;
+}
+
 .interests-card {
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   border-radius: 15px;
@@ -142,7 +151,7 @@ body {
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   border-radius: 15px;
   padding: 30px;
-  margin-top: 45%;
+  margin-top: 290px;
   flex: 1;
   min-width: 100%;
   max-width: 400px;
