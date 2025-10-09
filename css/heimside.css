@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
 }
-nav {
-    padding: 0;
-}
+
 body {
     background: ccc;
     margin-top: 100px;
 }
 
 .container {
-    max-width: 1410px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0;
+}
+
+.container2 {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .bredde {
@@ -32,6 +34,7 @@ h1 {
     font-size: 3em;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: rgb(96, 117, 157);
 }
 
 .subtitle {
@@ -45,8 +48,8 @@ h1 {
     gap: 30px;
     margin-bottom: 40px;
     max-width: 1200px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .transport-card {
