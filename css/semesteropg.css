@@ -110,10 +110,13 @@ h1, h2, h3, p, table, ul, li {
     white-space: nowrap;
     font-size: 28px;
     font-weight: 500;
+    border-radius: 10px;
 }
   
 .navbar a:hover {
     background-color: rgb(104, 151, 238);
+    color: white;
+    border-radius: 10px;
 }
 
 /* ******************
@@ -123,6 +126,7 @@ h1, h2, h3, p, table, ul, li {
     position: relative;
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .dropdown-content {
@@ -132,7 +136,7 @@ h1, h2, h3, p, table, ul, li {
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1001;
-    border-radius: 5px;
+    border-radius: 10px;
     top: 100%;
     left: 0;
 }
@@ -144,6 +148,7 @@ h1, h2, h3, p, table, ul, li {
     display: block;
     font-size: 20px;
     transition: background-color 0.3s ease;
+    border-radius: 10px;
 }
 
 .dropdown-content a:hover {
@@ -158,6 +163,7 @@ h1, h2, h3, p, table, ul, li {
 .dropdown:hover > a {
     background-color: rgb(104, 151, 238);
     color: white;
+    border-radius: 10px;
 }
 
 /* Sikrer at dropdown-lenken har samme styling som andre navbar-lenker */
