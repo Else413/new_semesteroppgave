@@ -1,4 +1,4 @@
-/* Karianne's personal styling */
+/* Karianne sin styling */
 
 /* Toppseksjon med to bokser */
 .top-section {
@@ -256,6 +256,51 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Custom tooltip for Snapchat */
+.snapchat-link {
+    position: relative;
+}
+
+.snapchat-link::after {
+    content: "karianneblikra";
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.snapchat-link::before {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.snapchat-link:hover::after,
+.snapchat-link:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* Tre bokser under */
 .content-boxes {
     display: grid;
@@ -321,6 +366,229 @@
 
 .hobby-icon {
     font-size: 1.5rem;
+}
+
+/* Squash tooltip */
+.squash-hobby {
+    position: relative;
+}
+
+.squash-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e8e8e8;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+    width: 650px;
+    margin-bottom: 10px;
+}
+
+.squash-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: white;
+}
+
+.tooltip-content {
+    padding: 1.5rem;
+}
+
+.tooltip-images {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tooltip-image {
+    flex: 1;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.tooltip-text h4 {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
+
+.tooltip-text p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.squash-hobby:hover .squash-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+/* Trening tooltip */
+.training-hobby {
+    position: relative;
+}
+
+.training-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e8e8e8;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.training-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: white;
+}
+
+.training-hobby:hover .training-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+/* Reise tooltip */
+.travel-hobby {
+    position: relative;
+}
+
+.travel-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e8e8e8;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.travel-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: white;
+}
+
+.travel-hobby:hover .travel-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+/* Musikk tooltip */
+.music-hobby {
+    position: relative;
+}
+
+.music-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e8e8e8;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    pointer-events: none;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.music-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: white;
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #8e44ad;
+    transition: all 0.3s ease;
+}
+
+.song-item:hover {
+    background: #e8f4f8;
+    transform: translateX(3px);
+}
+
+.song-number {
+    font-weight: 600;
+    color: #8e44ad;
+    font-size: 1rem;
+    min-width: 20px;
+}
+
+.song-title {
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.music-hobby:hover .music-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-5px);
 }
 
 /* Tilgjengelighet boks */
