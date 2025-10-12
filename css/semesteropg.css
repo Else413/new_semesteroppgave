@@ -549,6 +549,7 @@ h1, h2, h3, p, table, ul, li {
     object-fit: cover;
     border-radius: 8px;
 }
+
 /* ***********
  * bil side
  *************/
@@ -565,6 +566,9 @@ h1, h2, h3, p, table, ul, li {
 }
 .bil_intro h1 {
     font-size: 4rem;
+}
+.bil_intro p {
+    font-size: 1.5rem;
 }
 .bil_workshop {
     display: flex;
