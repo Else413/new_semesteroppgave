@@ -693,8 +693,9 @@ h1, h2, h3, p, table, ul, li {
 }
 .bil_card .bil_details li {
     margin-bottom: 6px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
+
 #filter-all:checked ~ .bil_list .bil_card,
 #filter-el:checked ~ .bil_list .el,
 #filter-bensin:checked ~ .bil_list .bensin,
