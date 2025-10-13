@@ -70,7 +70,7 @@ h1 {
     left: 0;
     right: 0;
     height: 5px;
-    background: rgb(96, 117, 157);
+    background:rgb(96, 117, 157);
 }
 
 .transport-card:hover {
@@ -97,7 +97,7 @@ a {
 }
 
 .transport-card p {
-    color: #666;
+    color: #585858;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -118,7 +118,7 @@ a {
 }
 
 .info-list li strong {
-    color: #667eea;
+    color: rgb(96, 117, 157);
 }
 
 @media (max-width: 768px) {
