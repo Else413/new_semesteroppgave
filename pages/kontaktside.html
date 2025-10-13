@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Kontaktside - Regnbyen Bergen A/S</title>
 		<link rel="stylesheet" href="../css/kontakt.css">
+        <link rel="stylesheet" href="../css/semesteropg.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -59,53 +60,53 @@
             <div class="kontakt-boks">
 
                 <div class="kontakt-venstre">
-                    <h3>Send forespørsel</h3>
+                    <h2>Send forespørsel</h2>
                     <form>
                         <div class="input-rad">
                             <div class="input-gruppe">
-                                <label for="navn" alt="navn">Navn</label>
-                                <input type="text" placeholder="Ola Norman">
+                                <label for="navn" title="navn">Navn</label>
+                                <input type="text" placeholder="Ola Norman" name="navn" id="navn"> 
                             </div>
                             <div class="input-gruppe">
-                                <label alt="telefon nr">Telefon nr</label>
-                                <input type="text" placeholder="+47 123 45 678">
+                                <label for="telefon" title="telefon nr">Telefon nr</label>
+                                <input type="text" placeholder="+47 123 45 678" name="telefon" id="telefon">
                             </div>
                         </div>
                         <div class="input-rad">
                             <div class="input-gruppe">
-                                <label for="navn" alt="email">Email</label>
-                                <input type="email" placeholder="Olanorman@gmail.com">
+                                <label for="email" title="email">Email</label>
+                                <input type="email" placeholder="Olanorman@gmail.com" name="email" id="email">
                             </div>
                             <div class="input-gruppe">
-                                <label alt="emne">Emne</label>
-                                <input type="text" placeholder="Tema for meldingen">
+                                <label for="emne" title="emne">Emne</label>
+                                <input type="text" placeholder="Tema for meldinga" name="emne" id="emne">
                             </div>
                         </div>
 
-                        <label alt="melding">Melding</label>
-                        <textarea rows="5" placeholder="Skriv meldingen din her..."></textarea>
+                        <label for="melding" title="melding">Melding</label>
+                        <textarea rows="5" placeholder="Skriv meldinga di her..." name="melding" id="melding"></textarea>
                         <button type="submit" class="btn">Send melding</button>
 
                     </form>
                 </div>
 
                 <div class="kontakt-hogre">
-                    <h3>Kontaktinformasjon</h3>
-                    <table>
-                        <tr>
+                    <h2>Kontaktinformasjon</h2>
+                    <ul>
+                        <li>
                             <td>Email:</td>
                             <td>RB@regnbyenbergen.no</td>
-                        </tr>
-                        <tr>
+                        </li>
+                        <li>
                             <td>Telefon:</td>
                             <td>+47 557 78 899</td>
-                        </tr>
-                        <tr>
+                        </li>
+                        <li>
                             <td>Adresse:</td>
                             <td>Innerdalsveien 28, 5063 Bergen</td>
-                        </tr>
+                        </li>
                         
-                    </table>
+                    </ul>
                 </div>
 
             </div>

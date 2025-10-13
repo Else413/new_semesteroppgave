@@ -400,6 +400,7 @@ h1, h2, h3, p, table, ul, li {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     z-index: 10;
     text-align: center;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .category-card p {
@@ -415,6 +416,7 @@ h1, h2, h3, p, table, ul, li {
     z-index: 10;
     text-align: center;
     padding: 0 10px;
+    background-color: rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px) {
