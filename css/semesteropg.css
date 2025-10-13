@@ -351,6 +351,7 @@ h1, h2, h3, p, table, ul, li {
     background-color: #f8f9fa;
     border-radius: 15px;
     padding: 0;
+    margin: 0;
     text-align: center;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
@@ -358,8 +359,7 @@ h1, h2, h3, p, table, ul, li {
     position: relative;
     overflow: hidden;
     height: 300px;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .category-card:hover {
@@ -377,10 +377,11 @@ h1, h2, h3, p, table, ul, li {
 
 .category-image {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
-    margin-bottom: 0px;
-    border-radius: 15px 15px 0 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
     transition: transform 0.3s ease;
     display: block;
 }
