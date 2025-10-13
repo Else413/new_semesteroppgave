@@ -5,6 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om meg - Vegard Audunhus</title>
     <link rel="stylesheet" href="../../css/semesteropg.css">
+    <style>
+        /* Litt ekstra styling for en mykere look */
+        body {
+            background-color: #f9fafc;
+            color: #333;
+            font-family: "Segoe UI", Roboto, sans-serif;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        h1, h2 {
+            color: #1a2a40;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        section {
+            margin-top: 30px;
+        }
+
+        .profilseksjon {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .profilseksjon img {
+            width: 300px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .profilseksjon img:hover {
+            transform: scale(1.03);
+        }
+
+        .kontaktboks {
+            background-color: #eaf3ff;
+            padding: 18px;
+            border-radius: 12px;
+            margin-top: 15px;
+            border: 1px solid #cddffb;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            color: #666;
+        }
+
+        a {
+            color: #1a5bc6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
@@ -25,6 +99,7 @@
                             <a href="hus.html">Hus</a>
                         </div>
                     </div>
+<<<<<<< HEAD
                      <div class="dropdown">
                          <a href="../pages/info.html">Info</a>
                          <div class="dropdown-content">
@@ -45,6 +120,10 @@
                         </div>
                     </div>
                     <a href="../pages/kontaktside.html">Kontakt oss</a>
+=======
+                    <a href="../pages/info.html">Info</a>
+                    <a href="../pages/omoss.html">Om oss</a>
+>>>>>>> Vegard
                 </nav>
             </div>
         </div>
@@ -53,14 +132,13 @@
     <div class="content">
         <h1>Vegard Audunhus</h1>
 
-        <!-- Profilseksjon med bilde til venstre og tekst til høyre -->
-        <div style="display:flex;align-items:center;gap:40px;flex-wrap:wrap;margin:30px 0;">
+        <!-- Profilseksjon med bilde og introduksjon -->
+        <div class="profilseksjon">
             <!-- Bytt ut linken under med din egen bilde-fil -->
             <img src="../../bilder/vegard.jpg" 
-                 alt="Profilbilde av Vegard Audunhus" 
-                 style="width:220px;height:auto;border-radius:50%;flex-shrink:0;">
+                 alt="Profilbilde av Vegard Audunhus">
 
-            <div style="max-width:600px;">
+            <div style="max-width:500px;">
                 <h2>Hvem er jeg?</h2>
                 <p>
                     Hei! Jeg heter Vegard Audunhus og er en 20 år gammel student fra Bergen. 
@@ -84,20 +162,23 @@
         <section>
             <h2>Kontakt meg</h2>
             <p>
-                📧 E-post: <a href="mailto:vegard.audunhus@example.com">vegard.audunhus@regnbyenbergen.no</a><br>
+                📧 E-post: <a href="mailto:vegard.audunhus@example.com">vegard.audunhus@example.com</a><br>
                 📱 Telefon: +47 987 65 432<br>
                 🌝 LinkedIn: <a href="https://www.linkedin.com/" target="_blank">linkedin.com/in/vegardaudunhus</a>
             </p>
+<<<<<<< HEAD
             <div style="background-color:#f0f8ff;padding:15px;border-radius:10px;margin-top:15px;border:1px solid #cce0ff;">
                 ✉︝ Jeg er tilgjengelig på e-post fra mandag til fredag klokken <strong>10:00 til 15:00</strong>.
+=======
+            <div class="kontaktboks">
+                ✉️ Jeg er tilgjengelig på e-post hver dag fra <strong>10:00 til 15:00</strong>.
+>>>>>>> Vegard
             </div>
         </section>
     </div>
     
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Vegard Audunhus - Alle rettigheter forbeholdt</p>
-        </div>
+        <p>&copy; 2025 Vegard Audunhus - Alle rettigheter forbeholdt</p>
     </footer>
 </body>
 </html>
