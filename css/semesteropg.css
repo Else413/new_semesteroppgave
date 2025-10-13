@@ -695,11 +695,19 @@ h1, h2, h3, p, table, ul, li {
     margin-bottom: 6px;
     font-size: 0.9rem;
 }
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+legend {
+    display: none;
+}
 
-#filter-all:checked ~ .bil_list .bil_card,
-#filter-el:checked ~ .bil_list .el,
-#filter-bensin:checked ~ .bil_list .bensin,
-#filter-diesel:checked ~ .bil_list .diesel {
+fieldset:has(#filter-all:checked) ~ .bil_list .bil_card,
+fieldset:has(#filter-el:checked) ~ .bil_list .el,
+fieldset:has(#filter-bensin:checked) ~ .bil_list .bensin,
+fieldset:has(#filter-diesel:checked) ~ .bil_list .diesel {
     display: block;
 }
 
