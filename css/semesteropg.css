@@ -267,6 +267,7 @@ h1, h2, h3, p, table, ul, li {
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    text-decoration: none;
 }
 
 .member-card:hover {
@@ -292,7 +293,6 @@ h1, h2, h3, p, table, ul, li {
 
 .member-info h3 a:hover {
     color: #007bff;
-    text-decoration: underline;
 }
 
 .member-info .email {
