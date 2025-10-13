@@ -259,7 +259,7 @@ h1, h2, h3, p, table, ul, li {
     margin-top: 30px;
 }
 
-.member-card {
+.member-card, a.member-card {
     display: flex;
     align-items: center;
     background-color: #f8f9fa;
@@ -303,7 +303,7 @@ h1, h2, h3, p, table, ul, li {
 
 .member-info .role {
     margin: 5px 0 0 0;
-    color: #888;
+    color: #4D4D4D;
     font-size: 14px;
     font-style: italic;
 }
