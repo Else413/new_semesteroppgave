@@ -113,7 +113,7 @@ body {
     flex: 1;
 }
 .info a {
-    color: #0077cc;
+    color: #00cc;
     text-decoration: none;
     transition: color 0.2s ease;
 }
