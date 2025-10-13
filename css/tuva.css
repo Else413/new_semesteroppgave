@@ -1,7 +1,7 @@
 .tuva-grid {
     display: grid;
     grid-template-columns: repeat(2, 500px);
-    grid-template-rows: (1);
+    grid-template-rows: 1fr;
     gap: 1.5rem;
     padding: 2rem;
     justify-content: right;
