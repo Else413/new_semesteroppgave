@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/semesteropg.css">
+    <link rel="stylesheet" href="../css/tuva.css">
 </head>
 <body>
     <header class="main-header">
@@ -13,7 +14,7 @@
             <div class="meny">
                 <div>
                     <a href="../index.html">
-                        <img src="../bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <img src="../bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;" alt="logo for Regbyen Bergen">
                     </a>
                 </div>
                 <nav class="navbar">
@@ -100,14 +101,22 @@
         <!-- bil seksjon -->
         <div class="bil_section">
             <div class="bil_filters">
-                <input type="radio" id="filter-all" name="bil-filter" checked>
-                <label for="filter-all">Alle</label>
-                <input type="radio" id="filter-el" name="bil-filter">
-                <label for="filter-el">EL-biler</label>
-                <input type="radio" id="filter-bensin" name="bil-filter">
-                <label for="filter-bensin">Bensin-biler</label>
-                <input type="radio" id="filter-diesel" name="bil-filter">
-                <label for="filter-diesel">Diesel-biler</label>
+                <fieldset>
+                    <legend>VELG BILTYPE</legend>
+
+                    <input type="radio" id="filter-all" name="bil-filter" checked>
+                    <label for="filter-all">Alle</label>
+
+                    <input type="radio" id="filter-el" name="bil-filter">
+                    <label for="filter-el">EL-biler</label>
+
+                    <input type="radio" id="filter-bensin" name="bil-filter">
+                    <label for="filter-bensin">Bensin-biler</label>
+
+                    <input type="radio" id="filter-diesel" name="bil-filter">
+                    <label for="filter-diesel">Diesel-biler</label>
+
+                </fieldset>
 
                 <div class="bil_list">
                     <div class="bil_card el">
@@ -359,8 +368,8 @@
             <div class="apper-seksjon">
                 <h3>Våre apper</h3>
                 <a href="https://www.instagram.com/regnbyenbergen/" target="_blank">Instagram</a>
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">Twitter</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://x.com" target="_blank">Twitter</a>
             </div>
         </div>
     </footer>
