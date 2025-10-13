@@ -63,6 +63,10 @@ body {
   margin-top: 10px;
 }
 
+.subtitle ul li p{
+  list-style: none;
+}
+
 
 .info-section {
   flex: 1;
