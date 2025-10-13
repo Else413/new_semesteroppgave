@@ -1,34 +1,100 @@
-<!DOCTYPE html>
-<html>
+<html lang="no">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tuva Fiskum Solbakken - Regnbyen Bergen A/S</title>
-        <link rel="stylesheet" href="/css/semesteropg.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Tuva</title>
+        <link rel="stylesheet" href="../../css/semesteropg.css">
+        <link rel="stylesheet" href="../../css/tuva.css">
     </head>
     <body>
-        <header class="main-header">
+      <header class="main-header">
             <div class="container">
                 <div class="meny">
                     <div>
-                        <img src="/bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <a href="../../index.html">
+                            <img src="../../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;">
+                        </a>
                     </div>
                     <nav class="navbar">
-                        <a href="/index.html">Hjem</a>
-                        <a href="/pages/produkt.html">Produkter</a>
-                        <a href="/pages/info.html">Info</a>
-                        <a href="/pages/omoss.html">Om oss</a>
+                        <a href="../../index.html">Hjem</a>
+                        <div class="dropdown">
+                            <a href="../pages/produkt.html">Produkter</a>
+                            <div class="dropdown-content">
+                                <a href="Produktting.html">Produktting</a>
+                                <a href="biler.html">Biler</a>
+                                <a href="hus.html">Hus</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../pages/info.html">Info</a>
+                            <div class="dropdown-content">
+                                <a href="../vaeret.html">Været</a>
+                                <a href="../transportmaater.html">Transportmåter</a>
+                                <a href="../attraksjoner.html">Attraksjoner</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                           <a href="../../pages/omoss.html">Om oss</a>
+                           <div class="dropdown-content">
+                               <a href="../medlemmer/medlem_teodor.html">Teodor</a>
+                               <a href="../medlemmer/medlem_tuva.html">Tuva</a>
+                               <a href="../medlemmer/medlem_else.html">Else</a>
+                               <a href="../medlemmer/medlem_adrian.html">Adrian</a>
+                               <a href="../medlemmer/medlem_karianne.html">Karianne</a>
+                               <a href="../medlemmer/medlem_vegard.html">Vegard</a>
+                           </div>
+                       </div>
+                        <a href="../pages/kontaktside.html">Kontakt oss</a>
                     </nav>
                 </div>
             </div>
         </header>
-        
         <div class="content">
+            <div class="info">
+            <img src="../../bilder/tuva.jpg" class="bilde" alt="Bilde av Tuva">
+        <div class="tekst">
             <h1>Tuva Fiskum Solbakken</h1>
+            <p>Hei jeg er Tuva og jeg er en del av gruppen som har jobbet med prosjektet Regnbyen Bergen A/S. 
+                Jeg ble med på dette prosjektet fordi jeg synes det er spennende å skape digitale løsninger som 
+                kan hjelpe med å gjøre hverdagen enklere. 
+            </p>
+        </div>
+        </div>
+
+            <main class="timeplan">
+                <h2>Jeg er tilgjengelig på disse tidspunktene:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dag</th>
+                            <th>Tid</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mandag</td>
+                            <td>10:00-15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Tirsdag</td>
+                            <td>10:00-15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Onsdag</td>
+                            <td>10:00-15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Torsdag</td>
+                            <td>10:00-15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td>10:00-15:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
         </div>
         
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <script>w3.includeHTML();</script>
     </body>
 </html>

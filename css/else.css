@@ -1,0 +1,105 @@
+
+
+.container-else {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.sone {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.bilde-sone img {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.bilde-else {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.info-sone {
+    text-align: left;
+}
+
+.tabell-sone {
+    width: 40%;
+    border-collapse: collapse;
+    position: absolute;
+    left: 72%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.mail {
+    font-weight: bold;
+    margin: 20px 0 0 20px;
+    font-size: 16px;
+   
+}
+.tlf {
+    font-weight: bold;
+    margin: 5px 0 0 20px;
+    font-size: 16px;
+   
+}
+.tittel-else {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.tabell {
+    width: 40%;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    margin: auto;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: #a3a3a3;
+    text-align: center;
+   
+}   
+
+.info {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.tabell th, .tabell td {
+    border: 1px solid #424242;
+    padding: 5px;
+}
+
+.kontakt-else {
+    line-height: 0.1;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+}
+.kontakt-info {
+    padding: 5px;
+    border-radius: 8px;
+}

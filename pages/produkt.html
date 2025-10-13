@@ -4,33 +4,119 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>BHR2 - Regnbyen Bergen A/S</title>
+		<title>Produkt - Regnbyen Bergen A/S</title>
 		<link rel="stylesheet" href="../css/semesteropg.css">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
 		<header class="main-header">
             <div class="container">
                 <div class="meny">
                     <div>
-                        <img src="../bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <a href="../index.html">
+                            <img src="../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;">
+                        </a>
                     </div>
                     <nav class="navbar">
                         <a href="../index.html">Hjem</a>
-                        <a href="../pages/produkt.html">Produkter</a>
-                        <a href="../pages/info.html">Info</a>
-                        <a href="../pages/omoss.html">Om oss</a>
+                        <div class="dropdown">
+                            <a href="../pages/produkt.html">Produkter</a>
+                            <div class="dropdown-content">
+                                <a href="Produktting.html">Produktting</a>
+                                <a href="biler.html">Biler</a>
+                                <a href="hus.html">Hus</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../pages/info.html">Info</a>
+                            <div class="dropdown-content">
+                                <a href="vaeret.html">Været</a>
+                                <a href="transportmaater.html">Transportmåter</a>
+                                <a href="attraksjoner.html">Attraksjoner</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../pages/omoss.html">Om oss</a>
+                            <div class="dropdown-content">
+                                <a href="medlemmer/medlem_teodor.html">Teodor</a>
+                                <a href="medlemmer/medlem_tuva.html">Tuva</a>
+                                <a href="medlemmer/medlem_else.html">Else</a>
+                                <a href="medlemmer/medlem_adrian.html">Adrian</a>
+                                <a href="medlemmer/medlem_karianne.html">Karianne</a>
+                                <a href="medlemmer/medlem_vegard.html">Vegard</a>
+                            </div>
+                        </div>
+                        <a href="../pages/kontaktside.html">Kontakt oss</a>
                     </nav>
                 </div>
             </div>
         </header>
       
 		<div class="content">
-         <h2 class="header">Bekledning for Regnbyen Bergen</h2>
-         <p class="description">På denne siden vil du finne all informasjonen du trenger for å velge riktig bekledning for regnværet i Bergen.</p>
-         <p class="description">Vi har samlet informasjon direkte fra Bergensere samtidig som at vi har testet ut diverse bekledningsalternativer for å gi deg de beste anbefalingene.</p>
+         <h1 class="info-main-title">🛍️ Produkter for Regnbyen Bergen</h1>
+         
+         <div class="weather-intro">
+             <h2>Utstyr for Bergens unike klima</h2>
+             <p>Bergen krever spesielle produkter for å håndtere det regnrike klimaet. 
+             Vi har testet og samlet de beste anbefalingene for å hjelpe deg 
+             med å velge riktig utstyr for regnbyen.</p>
+         </div>
+         
+         <div class="product-categories">
+             <div class="category-card">
+                 <a href="Produktting.html">
+                     <img src="../bilder/bekledning.png" alt="Produktting" class="category-image">
+                     <h3>Produktting</h3>
+                     <p>Utvalg av produkter til regnvaeret</p>
+                 </a>
+             </div>
+             
+             <div class="category-card">
+                 <a href="biler.html">
+                     <img src="../bilder/bil.jpg" alt="Biler" class="category-image">
+                     <h3>Biler</h3>
+                     <p>Hvilke biler egner seg best for regnvaeret?</p>
+                 </a>
+             </div>
+             
+             <div class="category-card">
+                 <a href="hus.html">
+                     <img src="../bilder/hus.jpg" alt="Hus" class="category-image">
+                     <h3>Hus</h3>
+                     <p>Boligløsninger for Bergen</p>
+                 </a>
+             </div>
+         </div>
+         
+         <div class="weather-intro">
+             <h2>Hvorfor velge våre produkter?</h2>
+             <p>Våre produkter er spesielt utvalgt for Bergens unike klima. 
+             Fra regntøy som holder deg tørr til biler som håndterer våte veier, 
+             og hus som tåler regnbyens utfordringer - vi har det du trenger 
+             for å trives i regnbyen Bergen.</p>
+         </div>
 		</div>
-		<script src="https://www.w3schools.com/lib/w3.js"></script>
-		<script>w3.includeHTML();</script>
+		
+		<footer class="footer-innhold">
+            <div class="box-container">
+                <div class="kontakt-sesjon">
+                    <h3>Kontakt oss</h3>
+                    <p>+47 557 78 899</p>
+                    <p>RB@regnbyenbergen.no</p>
+                    <p>Innerdalsveien 28, 5063 Bergen</p>
+                </div>
+
+                <div class="info-seksjon">
+                    <h3>Info</h3>
+                    <p>Regnbyen Bergen A/S</p>
+                    <p>Alle rettigheter er forbeholdt.</p>
+                </div>
+
+                <div class="apper-seksjon">
+                    <h3>Våre apper</h3>
+                    <a href="https://www.instagram.com/regnbyenbergen/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/hvl.no/?locale=nb_NO" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </footer>
 	</body>
 </html>

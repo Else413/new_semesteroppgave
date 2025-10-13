@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    opacity: 1;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.container2 {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.bredde {
+    margin-top: 60px;
+}
+
+header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+    backdrop-filter: blur(10px);
+
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: rgb(96, 117, 157);
+}
+
+.subtitle {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.transport-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.transport-card {
+    background: rgb(227, 227, 227);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.transport-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background:rgb(96, 117, 157);
+}
+
+.transport-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.transport-icon {
+    font-size: 6em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.transport-card h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.transport-card p {
+    color: #5e5e5e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.info-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.info-list li {
+    padding: 8px 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.info-list li:last-child {
+    border-bottom: none;
+}
+
+.info-list li strong {
+    color: #00cc;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .transport-grid {
+        grid-template-columns: 1fr;
+    }
+}

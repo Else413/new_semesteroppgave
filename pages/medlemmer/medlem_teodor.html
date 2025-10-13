@@ -1,35 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="no">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Teodor Haaland Furelid - Regnbyen Bergen A/S</title>
-        <link rel="stylesheet" href="/css/semesteropg.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../../css/semesteropg.css">
+        <link rel="stylesheet" href="../../css/teodor.css">
     </head>
     <body>
         <header class="main-header">
             <div class="container">
                 <div class="meny">
                     <div>
-                        <img src="/bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <img src="../../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;">
                     </div>
                     <nav class="navbar">
-                        <a href="/index.html">Hjem</a>
-                        <a href="/pages/produkt.html">Produkter</a>
-                        <a href="/pages/info.html">Info</a>
-                        <a href="/pages/omoss.html">Om oss</a>
+                        <a href="../../index.html">Hjem</a>
+                        <div class="dropdown">
+                            <a href="../produkt.html">Produkter</a>
+                            <div class="dropdown-content">
+                                <a href="../Produktting.html">Produktting</a>
+                                <a href="../biler.html">Biler</a>
+                                <a href="../hus.html">Hus</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../info.html">Info</a>
+                            <div class="dropdown-content">
+                                <a href="../vaeret.html">Været</a>
+                                <a href="../transportmaater.html">Transportmåter</a>
+                                <a href="../attraksjoner.html">Attraksjoner</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../omoss.html">Om oss</a>
+                            <div class="dropdown-content">
+                                <a href="../medlemmer/medlem_teodor.html">Teodor</a>
+                                <a href="../medlemmer/medlem_tuva.html">Tuva</a>
+                                <a href="../medlemmer/medlem_else.html">Else</a>
+                                <a href="../medlemmer/medlem_adrian.html">Adrian</a>
+                                <a href="../medlemmer/medlem_karianne.html">Karianne</a>
+                                <a href="../medlemmer/medlem_vegard.html">Vegard</a>
+                            </div>
+                        </div>
+                        <a href="../kontaktside.html">Kontakt oss</a>
                     </nav>
                 </div>
             </div>
         </header>
         
-        <div class="content">
-            <h1>Teodor Haaland Furelid</h1>
+        <div class="profile-layout">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="../../bilder/teodor.jpg" alt="Teodor H F">
+                </div>
+                <h1>Teodor H F</h1>
+                <p class="subtitle">Scrum Master - Regnbyen Bergen A/S</p>
+            </div>
+    
+            <div class="info-section">
+                <h2>Om meg</h2>
+                <p>Jeg er en del av teamet bak Regnbyen Bergen A/S, et innovativt prosjekt som fokuserer på bærekraftige løsninger for Bergen by. Med passion for teknologi og miljø, bidrar jeg til å skape fremtidens smarte byløsninger.</p>
+                <p>Min rolle i prosjektet innebærer å jobbe med utvikling og implementering av nye konsepter som kan gjøre Bergen til en mer bærekraftig og livskraftig by for alle innbyggere.</p>
+            </div>
+        </div>
+    
+        <div class="profile-layout2">
+            <div class="video-section">
+                <h1>Ein eksemplarisk gjennomføring av fasit golfsving ;p</h1>
+                <video controls>
+                    <source src="../../bilder/golfsving.mp4" type="video/mp4" alt="teodro gjennomfører ein eksemplarisk golfsving ;p">
+                    <p>Eksemplarisk eksempel på ein perfekt sving ;P</p>
+                </video>
+            </div>
+            
+            <div class="interests-card">
+                <h1>Mine interesser:</h1>
+                <p class="subtitle">* Golf</p>
+                <p class="subtitle">* Styrketrening</p>
+    
+                <h1>Min favorittmat:</h1>
+                <p class="subtitle">* Tandoori chicken</p>
+                <p class="subtitle">* Hamburger</p>
+                <p class="subtitle">* Taco-grateng</p>
+    
+                <h1>Mine favoritt artister:</h1>
+                <p class="subtitle">* Kamelen</p>
+                <p class="subtitle">* Drake White</p>
+                <p class="subtitle">* Kendrik Lamar</p>
+
+                <div class="contact-section">
+                    <div class="contact-info">
+                        <h2>Kontaktinformasjon</h2>
+                        <div class="contact-item">
+                            <strong>E-post:</strong>
+                            <span>teodor.hf@regnbyen.no</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Avdeling:</strong>
+                            <span>Gruppe 22</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Lokasjon:</strong>
+                            <span>Bergen, Norge</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Snap:</strong>
+                            <span>@teodorhf</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <script>w3.includeHTML();</script>
     </body>
 </html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biler - Regnbyen Bergen A/S</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/semesteropg.css">
+    <link rel="stylesheet" href="../css/tuva.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="meny">
+                <div>
+                    <a href="../index.html">
+                        <img src="../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;" alt="logo for Regbyen Bergen">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <a href="../index.html">Hjem</a>
+                    <div class="dropdown">
+                        <a href="../pages/produkt.html">Produkter</a>
+                        <div class="dropdown-content">
+                            <a href="../pages/Produktting.html">Produktting</a>
+                            <a href="../pages/biler.html">Biler</a>
+                            <a href="../pages/hus.html">Hus</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="../pages/info.html">Info</a>
+                        <div class="dropdown-content">
+                            <a href="../pages/vaeret.html">Været</a>
+                            <a href="../pages/transportmaater.html">Transportmåter</a>
+                            <a href="../pages/attraksjoner.html">Attraksjoner</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="../pages/omoss.html">Om oss</a>
+                        <div class="dropdown-content">
+                            <a href="../pages/medlemmer/medlem_teodor.html">Teodor</a>
+                            <a href="../pages/medlemmer/medlem_tuva.html">Tuva</a>
+                            <a href="../pages/medlemmer/medlem_else.html">Else</a>
+                            <a href="../pages/medlemmer/medlem_adrian.html">Adrian</a>
+                            <a href="../pages/medlemmer/medlem_karianne.html">Karianne</a>
+                            <a href="../pages/medlemmer/medlem_vegard.html">Vegard</a>
+                        </div>
+                    </div>
+                    <a href="../pages/kontaktside.html">Kontakt oss</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="bil_head">
+        <div class="bil_intro">
+            <h1>Biler</h1>
+            <p>Her finner du en samling med forskjellige biler som vi i RB foreslår å bruke her i bergen.
+                Disse bilene skal fungere bra i alle forhold som bergen by kan kaste på deg.
+                Og om du er så uheldig, har vi også noen forskjellige bil-verksted som vi foreslår å bruke.
+            </p>
+        </div>
+        <!-- verksted seksjon -->
+        <div class="bil_workshop">
+            <h2>Verksted vi foreslår:</h2>
+            <div class="bil_workshop-cards">
+                <a href="#" class="bil_workshop-card">
+                    <div class="bil_workshop-image">
+                        <img src="../bilder/bosch_service_logo.png" alt="Verksted 1">
+                    </div>
+                    <p><strong>Sted:</strong> Nord Bergen</p>
+                    <p><strong>Pris:</strong> 500 kr/t</p>
+                    <p><strong>Åpent:</strong> 08:00–16:00</p>
+                    <p><strong>Travelhet:</strong> Lav</p>
+                    <p><strong>Eksperter i:</strong> Elbiler</p>
+                </a>
+                <a href="#" class="bil_workshop-card">
+                    <div class="bil_workshop-image">
+                        <img src="../bilder/mekonomen_logo.png" alt="Verksted 2">
+                    </div>
+                    <p><strong>Sted:</strong> Sør Bergen</p>
+                    <p><strong>Pris:</strong> 600 kr/t</p>
+                    <p><strong>Åpent:</strong> 09:00–17:00</p>
+                    <p><strong>Travlhet:</strong> Høy</p>
+                    <p><strong>Eksperter i:</strong> Bensinbiler</p>
+                </a>
+                <a href="#" class="bil_workshop-card">
+                    <div class="bil_workshop-image" style="background-color: darkgray">
+                        <img src="../bilder/meca_logo.png" alt="Verksted 3">
+                    </div>
+                    <p><strong>Sted:</strong> Odense</p>
+                    <p><strong>Pris:</strong> 550 kr/t</p>
+                    <p><strong>Åbent:</strong> 07:00–15:00</p>
+                    <p><strong>Travlhed:</strong> Medium</p>
+                    <p><strong>Eksperter i:</strong> Dieselbiler</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bil_cont">
+        <!-- bil seksjon -->
+        <div class="bil_section">
+            <div class="bil_filters">
+                <fieldset>
+                    <legend>VELG BILTYPE</legend>
+
+                    <input type="radio" id="filter-all" name="bil-filter" checked>
+                    <label for="filter-all">Alle</label>
+
+                    <input type="radio" id="filter-el" name="bil-filter">
+                    <label for="filter-el">EL-biler</label>
+
+                    <input type="radio" id="filter-bensin" name="bil-filter">
+                    <label for="filter-bensin">Bensin-biler</label>
+
+                    <input type="radio" id="filter-diesel" name="bil-filter">
+                    <label for="filter-diesel">Diesel-biler</label>
+
+                </fieldset>
+
+                <div class="bil_list">
+                    <div class="bil_card el">
+                        <img src="../bilder/Dongfeng_Nammi_Box_Colors_OceanEyes.webp" alt="et bilde av en Dongfeng Nammi Box">
+                        <div class="bil_details">
+                            <h3>Dongfeng Nammi Box</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 199 000kr - 217 900kr</li>
+                                <li><strong>Rekkevidde:</strong> 240km - 340km</li>
+                                <li><strong>0–100 km/t:</strong> 14sek</li>
+                                <li><strong>Toppfart:</strong> 140km/t</li>
+                                <li><strong>Motor:</strong> Elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 95hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                                <li><strong>Batterikapasitet:</strong> 31,4kWh - 42,3kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card el">
+                        <img src="../bilder/Citroën_ë-C3.avif" alt="et bilde av en Citroën ë-C3">
+                        <div class="bil_details">
+                            <h3>Citroën ë-C3</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 208 900kr - 249 900kr</li>
+                                <li><strong>Rekkevidde:</strong> 320km</li>
+                                <li><strong>0–100 km/t:</strong> 11sek</li>
+                                <li><strong>Toppfart:</strong> 130km/t</li>
+                                <li><strong>Motor:</strong> Elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 113hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                                <li><strong>Batterikapasitet:</strong> 44kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card el">
+                        <img src="../bilder/Lexus_UX_300e(basis).png" alt="et bilde av en Lexus UX 300e (basis)">
+                        <div class="bil_details">
+                            <h3>Lexus UX 300e (basis)</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 369 000kr</li>
+                                <li><strong>Rekkevidde:</strong> 450km</li>
+                                <li><strong>0–100 km/t:</strong> 7,5sek</li>
+                                <li><strong>Toppfart:</strong> 160km/t</li>
+                                <li><strong>Motor:</strong> Elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 204hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                                <li><strong>Batterikapasitet:</strong> 54,3kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card el">
+                        <img src="../bilder/Zeekr_7X_long_range.avif" alt="et bilde av en Zeekr 7X Long Range">
+                        <div class="bil_details">
+                            <h3>Zeekr 7X Long Range</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 589 900kr</li>
+                                <li><strong>Rekkevidde:</strong> 615km</li>
+                                <li><strong>0–100 km/t:</strong> 6sek</li>
+                                <li><strong>Toppfart:</strong> 210km/t</li>
+                                <li><strong>Motor:</strong> Elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 416hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> RWD</li>
+                                <li><strong>Batterikapasitet:</strong> 100kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card el">
+                        <img src="../bilder/Mercedes_EQE_Sedan.avif" alt="et bilde av en Mercedes EQE Sedan">
+                        <div class="bil_details">
+                            <h3>Mercedes EQE Sedan</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 718 760kr</li>
+                                <li><strong>Rekkevidde:</strong> 623km</li>
+                                <li><strong>0–100 km/t:</strong> 7,3sek</li>
+                                <li><strong>Toppfart:</strong> 210km/t</li>
+                                <li><strong>Motor:</strong> Elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 245hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> RWD</li>
+                                <li><strong>Batterikapasitet:</strong> 89kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card el">
+                        <img src="../bilder/tesla_model_3.png" alt="et bilde av en Tesla model 3">
+                        <div class="bil_details">
+                            <h3>Tesla model 3</h3>
+                            <ul>
+                                <li><strong>Type:</strong> El-bil</li>
+                                <li><strong>Pris:</strong> 354 900kr</li>
+                                <li><strong>Rekkevidde:</strong> 520km</li>
+                                <li><strong>0–100 km/t:</strong> 6,1sek</li>
+                                <li><strong>Toppfart:</strong> 201km/t</li>
+                                <li><strong>Motor:</strong> elektrisk motor</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 460hk</li>
+                                <li><strong>CO2-utslipp:</strong> 0g/km</li>
+                                <li><strong>Drivlinje:</strong> RWD</li>
+                                <li><strong>Batterikapasitet:</strong> 90kWh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card bensin">
+                        <img src="../bilder/toyota-aygo-x.png" alt="et bilde av en Toyota Aygo X">
+                        <div class="bil_details">
+                            <h3>Toyota Aygo X</h3>
+                            <ul>
+                                <li><strong>Type:</strong> bensin bil</li>
+                                <li><strong>Pris:</strong> 220 000kr</li>
+                                <li><strong>0–100 km/t:</strong> 14,8sek</li>
+                                <li><strong>Toppfart:</strong> 158km/t</li>
+                                <li><strong>Motor:</strong> 1,0L bensinmotor</li>
+                                <li><strong>Tank:</strong> 35L</li>
+                                <li><strong>Hestekrefter:</strong> Ca. 73hk</li>
+                                <li><strong>CO2-utslipp:</strong> 110g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card bensin">
+                        <img src="../bilder/suzuki_Ignis_Tough_Khaki.jpg" alt="et bilde av en Suzuki Ignis Offroad 4×4">
+                        <div class="bil_details">
+                            <h3>Suzuki Ignis Offroad 4×4</h3>
+                            <ul>
+                                <li><strong>Type:</strong> bensin bil</li>
+                                <li><strong>Pris:</strong> 332 800kr</li>
+                                <li><strong>0–100 km/t:</strong> 11,5sek</li>
+                                <li><strong>Toppfart:</strong> 165km/t</li>
+                                <li><strong>Motor:</strong> 1,2L bensinmotor</li>
+                                <li><strong>Tank:</strong> 32L</li>
+                                <li><strong>Hestekrefter:</strong> 90hk</li>
+                                <li><strong>CO2-utslipp:</strong> 106g/km</li>
+                                <li><strong>Drivlinje:</strong> AWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card bensin">
+                        <img src="../bilder/Toyota_Yaris_Life.avif" alt="et bilde av en Toyota Yaris Life">
+                        <div class="bil_details">
+                            <h3>Toyota Yaris Life</h3>
+                            <ul>
+                                <li><strong>Type:</strong> bensin bil</li>
+                                <li><strong>Pris:</strong> 348 600kr</li>
+                                <li><strong>0–100 km/t:</strong> 9,7sek</li>
+                                <li><strong>Toppfart:</strong> 175km/t</li>
+                                <li><strong>Motor:</strong> 1,5L bensinmotor</li>
+                                <li><strong>Tank:</strong> 36L</li>
+                                <li><strong>Hestekrefter:</strong> 116hk</li>
+                                <li><strong>CO2-utslipp:</strong> 87g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card bensin">
+                        <img src="../bilder/volkswagen_polo.webp" alt="et bilde av en Volkswagen Polo">
+                        <div class="bil_details">
+                            <h3>Volkswagen Polo</h3>
+                            <ul>
+                                <li><strong>Type:</strong> bensin bil</li>
+                                <li><strong>Pris:</strong> 295 900kr</li>
+                                <li><strong>0–100 km/t:</strong> 11,3sek</li>
+                                <li><strong>Toppfart:</strong> 187km/t</li>
+                                <li><strong>Motor:</strong> 1,0L bensinmotor</li>
+                                <li><strong>Tank:</strong> 40L</li>
+                                <li><strong>Hestekrefter:</strong> 95hk</li>
+                                <li><strong>CO2-utslipp:</strong> 126g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card diesel">
+                        <img src="../bilder/skoda_octavia_tdi.webp" alt="et bilde av en Škoda Octavia TDI">
+                        <div class="bil_details">
+                            <h3>Škoda Octavia TDI</h3>
+                            <ul>
+                                <li><strong>Type:</strong> diesel bil</li>
+                                <li><strong>Pris:</strong> 350 000kr - 450 000kr</li>
+                                <li><strong>0–100 km/t:</strong> 10,3sek</li>
+                                <li><strong>Toppfart:</strong> 211km/t - 227km/t</li>
+                                <li><strong>Motor:</strong> 2,0L dieselmotor</li>
+                                <li><strong>Tank:</strong> 45L - 55L</li>
+                                <li><strong>Hestekrefter:</strong> 116hk</li>
+                                <li><strong>CO2-utslipp:</strong> 135g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card diesel">
+                        <img src="../bilder/vw-tiguan-2-0-tdi.jpg" alt="et bilde av en Volkswagen Tiguan 2.0">
+                        <div class="bil_details">
+                            <h3>Volkswagen Tiguan 2.0</h3>
+                            <ul>
+                                <li><strong>Type:</strong> diesel bil</li>
+                                <li><strong>Pris:</strong> 599 900kr</li>
+                                <li><strong>0–100 km/t:</strong> 8,3sek</li>
+                                <li><strong>Toppfart:</strong> 207km/t</li>
+                                <li><strong>Motor:</strong> 2,0L dieselmotor</li>
+                                <li><strong>Tank:</strong> 58L</li>
+                                <li><strong>Hestekrefter:</strong> 177hk</li>
+                                <li><strong>CO2-utslipp:</strong> 172g/km</li>
+                                <li><strong>Drivlinje:</strong> AWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bil_card diesel">
+                        <img src="../bilder/Peugeot_3008.webp" alt="et bilde av en Peugeot 3008">
+                        <div class="bil_details">
+                            <h3>Peugeot 3008</h3>
+                            <ul>
+                                <li><strong>Type:</strong> diesel bil</li>
+                                <li><strong>Pris:</strong> 495 000kr</li>
+                                <li><strong>0–100 km/t:</strong> 10,7sek</li>
+                                <li><strong>Toppfart:</strong> 190km/t</li>
+                                <li><strong>Motor:</strong> 1,5L dieselmotor</li>
+                                <li><strong>Tank:</strong> 53L</li>
+                                <li><strong>Hestekrefter:</strong> 130hk</li>
+                                <li><strong>CO2-utslipp:</strong> 130g/km</li>
+                                <li><strong>Drivlinje:</strong> FWD</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-innhold">
+        <div class="box-container">
+            <div class="kontakt-sesjon">
+                <h3>Kontakt oss</h3>
+                <p>+47 557 78 899</p>
+                <p>RB@regnbyenbergen.no</p>
+                <p>Innerdalsveien 28, 5063 Bergen</p>
+            </div>
+
+            <div class="info-seksjon">
+                <h3>Info</h3>
+                <p>Regnbyen Bergen A/S</p>
+                <p>Alle rettigheter er forbeholdt.</p>
+            </div>
+
+            <div class="apper-seksjon">
+                <h3>Våre apper</h3>
+                <a href="https://www.instagram.com/regnbyenbergen/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://x.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

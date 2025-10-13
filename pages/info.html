@@ -4,87 +4,121 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BHR3 - Regnbyen Bergen A/S</title>
+        <title>Info - Regnbyen Bergen A/S</title>
         <link rel="stylesheet" href="../css/semesteropg.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
         <header class="main-header">
             <div class="container">
                 <div class="meny">
                     <div>
-                        <img src="../bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <a href="../index.html">
+                            <img src="../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;">
+                        </a>
                     </div>
                     <nav class="navbar">
                         <a href="../index.html">Hjem</a>
-                        <a href="../pages/produkt.html">Produkter</a>
-                        <a href="../pages/info.html">Info</a>
-                        <a href="../pages/omoss.html">Om oss</a>
+                        <div class="dropdown">
+                            <a href="../pages/produkt.html">Produkter</a>
+                            <div class="dropdown-content">
+                                <a href="Produktting.html">Produktting</a>
+                                <a href="biler.html">Biler</a>
+                                <a href="hus.html">Hus</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../pages/info.html">Info</a>
+                            <div class="dropdown-content">
+                                <a href="../pages/vaeret.html">Været</a>
+                                <a href="../pages/transportmaater.html">Transportmåter</a>
+                                <a href="../pages/attraksjoner.html">Attraksjoner</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../pages/omoss.html">Om oss</a>
+                            <div class="dropdown-content">
+                                <a href="medlemmer/medlem_teodor.html">Teodor</a>
+                                <a href="medlemmer/medlem_tuva.html">Tuva</a>
+                                <a href="medlemmer/medlem_else.html">Else</a>
+                                <a href="medlemmer/medlem_adrian.html">Adrian</a>
+                                <a href="medlemmer/medlem_karianne.html">Karianne</a>
+                                <a href="medlemmer/medlem_vegard.html">Vegard</a>
+                            </div>
+                        </div>
+                        <a href="../pages/kontaktside.html">Kontakt oss</a>
                     </nav>
                 </div>
             </div>
         </header>
         
         <div class="content">
-        <h2>BHR3 - Regnbyen Bergen A/S</h2>
-        <p class="description">Her har du informasjon om gjennomsnittlig nedbør i Bergen gjennom året.</p>
-        <table>
-            <tr>
-                <th>Måned</th>
-                <th>Gjennomsnittlig nedbør (mm)</th>
-            </tr>
-            <tr>
-                <td>Januar</td>
-                <td>255</td>
-            </tr>
-            <tr>
-                <td>Februar</td>
-                <td>210</td>
-            </tr>
-            <tr>
-                <td>Mars</td>
-                <td>200</td>
-            </tr>
-            <tr>
-                <td>April</td>
-                <td>140</td>
-            </tr>
-            <tr>
-                <td>Mai</td>
-                <td>110</td>
-            </tr>
-            <tr>
-                <td>Juni</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <td>Juli</td>
-                <td>155</td>
-            </tr>
-            <tr>
-                <td>August</td>
-                <td>210</td>
-            </tr>
-            <tr>
-                <td>September</td>
-                <td>245</td>
-            </tr>
-            <tr>
-                <td>Oktober</td>
-                <td>270</td>
-            </tr>
-            <tr>
-                <td>November</td>
-                <td>270</td>
-            </tr>
-            <tr>
-                <td>Desember</td>
-                <td>290</td>
-            </tr>
-      
+         <h1 class="info-main-title">🌧️ Opplev Bergen</h1>
+         
+         <div class="weather-intro">
+             <h2>Bergen - Regnbyen mellom fjellene</h2>
+             <p>Bergen er Norges nest største by og en av de mest regnrike byene i Europa. 
+             Med sin unike beliggenhet mellom fjell og fjord, tilbyr Bergen en opplevelse 
+             som ingen annen by kan matche. Her finner du alt fra historiske Bryggen til 
+             moderne attraksjoner, alt omgitt av den vakre Vestlandsnatur.</p>
+         </div>
+         
+         <div class="product-categories">
+             <div class="category-card">
+                 <a href="vaeret.html">
+                     <img src="../bilder/været.jpg" alt="Været" class="category-image">
+                     <h3>Været</h3>
+                     <p>Informasjon om været i Bergen</p>
+                 </a>
+             </div>
+             
+             <div class="category-card">
+                 <a href="transportmaater.html">
+                     <img src="../bilder/bil.jpg" alt="Transport" class="category-image">
+                     <h3>Transportmåter</h3>
+                     <p>Hvordan komme seg rundt i Bergen</p>
+                 </a>
+             </div>
+             
+             <div class="category-card">
+                 <a href="attraksjoner.html">
+                     <img src="../bilder/attraksjoner.png" alt="Attraksjoner" class="category-image">
+                     <h3>Attraksjoner</h3>
+                     <p>Seværdigheter i Bergen</p>
+                 </a>
+             </div>
+         </div>
+         
+         <div class="weather-intro">
+             <h2>Hvorfor velge Bergen?</h2>
+             <p>Bergen er ikke bare en by - det er en opplevelse. Fra de historiske gatene på Bryggen 
+             til de moderne attraksjonene på Fløyen og Ulriken, har Bergen noe for alle. 
+             Enten du er interessert i historie, natur, kultur eller bare vil oppleve noe unikt, 
+             vil Bergen overraske deg med sin skjønnhet og karakter.</p>
+         </div>
         </div>
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        <script>w3.includeHTML();</script>
+        
+        <footer class="footer-innhold">
+            <div class="box-container">
+                <div class="kontakt-sesjon">
+                    <h3>Kontakt oss</h3>
+                    <p>+47 557 78 899</p>
+                    <p>RB@regnbyenbergen.no</p>
+                    <p>Innerdalsveien 28, 5063 Bergen</p>
+                </div>
+
+                <div class="info-seksjon">
+                    <h3>Info</h3>
+                    <p>Regnbyen Bergen A/S</p>
+                    <p>Alle rettigheter er forbeholdt.</p>
+                </div>
+
+                <div class="apper-seksjon">
+                    <h3>Våre apper</h3>
+                    <a href="https://www.instagram.com/regnbyenbergen/" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/hvl.no/?locale=nb_NO" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </footer>
 
     </body>
 </html>

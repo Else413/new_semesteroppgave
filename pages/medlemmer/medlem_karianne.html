@@ -1,85 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="no" >
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Karinne Blikra Jenssen - Regnbyen Bergen A/S</title>
-        <link rel="stylesheet" href="/css/semesteropg.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../../css/semesteropg.css">
+        <link rel="stylesheet" href="../../css/karianne.css">
     </head>
     <body>
       <header class="main-header">
             <div class="container">
                 <div class="meny">
                     <div>
-                        <img src="/bilder/logo_regnbyen_bergen_01.png" style="width:120px;height:120px;">
+                        <a href="../../index.html">
+                            <img src="../../bilder/logo_regnbyen_bergen_01.png" alt="logoen til regnbyen Bergen" style="width:120px;height:120px;">
+                        </a>
                     </div>
                     <nav class="navbar">
-                        <a href="/index.html">Hjem</a>
-                        <a href="/pages/produkt.html">Produkter</a>
-                        <a href="/pages/info.html">Info</a>
-                        <a href="/pages/omoss.html">Om oss</a>
+                        <a href="../../index.html">Hjem</a>
+                        <div class="dropdown">
+                            <a href="../../pages/produkt.html">Produkter</a>
+                            <div class="dropdown-content">
+                                <a href="Produktting.html">Produktting</a>
+                                <a href="biler.html">Biler</a>
+                                <a href="hus.html">Hus</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="../../pages/info.html">Info</a>
+                            <div class="dropdown-content">
+                                <a href="../vaeret.html">Været</a>
+                                <a href="../transportmaater.html">Transportmåter</a>
+                                <a href="../attraksjoner.html">Attraksjoner</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                           <a href="../../pages/omoss.html">Om oss</a>
+                           <div class="dropdown-content">
+                               <a href="../medlemmer/medlem_teodor.html">Teodor</a>
+                               <a href="../medlemmer/medlem_tuva.html">Tuva</a>
+                               <a href="../medlemmer/medlem_else.html">Else</a>
+                               <a href="../medlemmer/medlem_adrian.html">Adrian</a>
+                               <a href="../medlemmer/medlem_karianne.html">Karianne</a>
+                               <a href="../medlemmer/medlem_vegard.html">Vegard</a>
+                           </div>
+                       </div>
+                        <a href="../kontaktside.html">Kontakt oss</a>
                     </nav>
                 </div>
             </div>
         </header>
-      <div class="content">
-         <h1>Karinne Blikra Jenssen</h1>
-         
-         <div class="member-info">
-            <img src="/bilder/karianne.jpg" alt="Karianne Blikra Jenssen" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; float: left; margin-right: 20px; margin-bottom: 20px;">
-            
-            <div style="margin-left: 220px;">
-               <h2>Prosjektmedlem</h2>
-               <p><strong>E-post:</strong> kariannejenssen@regnbyen.no</p>
-               
-               <h3>Om Karianne</h3>
-               <p>blablabla</p>
-               
-               <p>blablabla.</p>
+        <!-- Toppseksjon med to bokser -->
+        <div class="top-section">
+            <div class="top-container">
+                <!-- Venstre boks: Navn, bilde og roller -->
+                <div class="profile-box">
+                    <div class="profile-image">
+                        <img src="../../bilder/karianne.jpg" alt="Karianne Blikra Jenssen">
+                    </div>
+                    <div class="profile-details">
+                        <h1>Karianne Blikra Jenssen</h1>
+                        <div class="roles">
+                            <span class="role-badge">Prosjektmedlem</span>
+                            <span class="role-badge">IT-entusiast</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Høyre boks: Om meg -->
+                <div class="contact-box">
+                    <h2>Om meg</h2>
+                    <p>Som ekte bergenser har jeg et varmt hjerte for byen mellom de syv fjell, og for regnet som følger med. Jeg brenner for konseptet Regnbyen Bergen, og ønsker å skape løsninger og opplevelser som gjør at alle som bor her og besøkende kan trives, også på de aller våteste dagene. Med engasjement og lokalkunnskap er jeg med på å gjøre regnværet til en del av byens sjel, ikke et hinder.</p>
+                    <p>I prosjektet bidrar jeg med idéutvikling, kommunikasjon og et kreativt blikk for hvordan vi kan formidle regnbyen på en måte som inspirerer både bergensere og besøkende til å omfavne regnet, istedenfor å la seg stoppe av det.</p>
+                    
+                    <div class="skills-section">
+                        <h3>Ferdigheter</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tre bokser under -->
+        <div class="content-boxes">
+            <!-- Hobbyer boks -->
+            <div class="info-box hobbies-box">
+                <h2>Hobbyer</h2>
+                <div class="hobby-list">
+                    <div class="hobby-item squash-hobby">
+                        <span>Squash</span>
+                        <div class="squash-tooltip">
+                            <div class="tooltip-content">
+                                <div class="tooltip-images">
+                                    <img src="../../bilder/squash.jpg" alt="Karianne spiller squash" class="tooltip-image">
+                                    <img src="../../bilder/squash2.jpg" alt="Karianne på squashbanen" class="tooltip-image">
+                                </div>
+                                <div class="tooltip-text">
+                                    <h3>Min squashkarriere</h3>
+                                    <p>Jeg har spilt squash i over 6 år. Jeg spiller nå for Åsane Squashklubb og BSI Squash. 
+                                    Jeg har deltatt i flere turneringer i Norge og har vunnet student NM to år på rad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hobby-item training-hobby">
+                        <span>Trening</span>
+                        <div class="training-tooltip">
+                            <div class="tooltip-content">
+                                <div class="tooltip-text">
+                                    <h4>Min treningsfilosofi</h4>
+                                    <p>Jeg elsker å trene og holde meg i fysisk aktivitet. Trening gir meg energi, fokus og en god følelse. Jeg liker å variere mellom styrketrening, kardio og squash for å holde kroppen i form og sinnet friskt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hobby-item travel-hobby">
+                        <span>Reise</span>
+                        <div class="travel-tooltip">
+                            <div class="tooltip-content">
+                                <div class="tooltip-images">
+                                    <img src="../../bilder/reise.jpg" alt="Karianne på reise" class="tooltip-image">
+                                    <img src="../../bilder/reise2.jpg" alt="Karianne på reise2" class="tooltip-image">
+                                    <img src="../../bilder/reise3.jpg" alt="Karianne på reise3" class="tooltip-image">
+                                </div>
+                                <div class="tooltip-text">
+                                    <h4>Min reiseglede</h4>
+                                    <p>Jeg elsker å reise og oppleve nye kulturer og steder. Jeg liker både natur, strand og byferie! Reising gir meg nye perspektiver og inspirerer meg til å se verden med nye øyne.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hobby-item music-hobby">
+                        <span>Musikk</span>
+                        <div class="music-tooltip">
+                            <div class="tooltip-content">
+                                <div class="tooltip-text">
+                                    <h4>Mine topp tre sanger akkurat nå</h4>
+                                    <div class="song-list">
+                                        <div class="song-item">
+                                            <span class="song-number">1.</span>
+                                            <span class="song-title">Maskulin, av Ylva</span>
+                                        </div>
+                                        <div class="song-item">
+                                            <span class="song-number">2.</span>
+                                            <span class="song-title">Training Season, av Dua Lipa</span>
+                                        </div>
+                                        <div class="song-item">
+                                            <span class="song-number">3.</span>
+                                            <span class="song-title">glorie, av vinni</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div style="clear: both; margin-top: 30px;">
-               <h3>Ukesplan</h3>
-               <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
-                  <tr style="background-color: #f2f2f2;">
-                     <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Ukedag</th>
-                     <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Tid</th>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Mandag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">08:00 - 16:00</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Tirsdag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">08:00 - 16:00</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Onsdag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">08:00 - 16:00</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Torsdag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">08:00 - 16:00</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Fredag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">08:00 - 15:00</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Lørdag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Fridag</td>
-                  </tr>
-                  <tr>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Søndag</td>
-                     <td style="border: 1px solid #ddd; padding: 12px;">Fridag</td>
-                  </tr>
-               </table>
+            <!-- Tilgjengelighet boks -->
+            <div class="info-box availability-box">
+                <h2>Tilgjengelighet</h2>
+                <div class="availability-table">
+                    <div class="day-row">
+                        <span class="day">Mandag</span>
+                        <span class="time">08:00 - 16:00</span>
+                    </div>
+                    <div class="day-row">
+                        <span class="day">Tirsdag</span>
+                        <span class="time">08:00 - 16:00</span>
+                    </div>
+                    <div class="day-row">
+                        <span class="day">Onsdag</span>
+                        <span class="time">08:00 - 16:00</span>
+                    </div>
+                    <div class="day-row">
+                        <span class="day">Torsdag</span>
+                        <span class="time">08:00 - 16:00</span>
+                    </div>
+                    <div class="day-row">
+                        <span class="day">Fredag</span>
+                        <span class="time">08:00 - 15:00</span>
+                    </div>
+                    <div class="day-row weekend">
+                        <span class="day">Lørdag</span>
+                        <span class="time">Fridag</span>
+                    </div>
+                    <div class="day-row weekend">
+                        <span class="day">Søndag</span>
+                        <span class="time">Fridag</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kontaktinformasjon boks -->
+            <div class="info-box contact-info-box">
+                <h2>Kontaktinformasjon</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>E-post:</strong>
+                        <span>kariannejenssen@regnbyen.no</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telefon:</strong>
+                        <span>+47 486 04 864</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Avdeling:</strong>
+                        <span>Gruppe 22</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Lokasjon:</strong>
+                        <span>Bergen, Norge</span>
+                    </div>
+                    <div class="contact-item social-links">
+                        <strong>Sosiale medier:</strong>
+                        <div class="social-buttons">
+                            <a href="https://www.instagram.com/karianneblikra" target="_blank" class="social-btn instagram">Instagram</a>
+                            <a href="https://www.linkedin.com/in/karianne-blikra-jenssen/" target="_blank" class="social-btn linkedin">LinkedIn</a>
+                        </div>
+                        <div class="snapchat-container">
+                            <a href="https://www.snapchat.com/add/karianneblikra" target="_blank" class="snapchat-link">
+                                <img src="../../bilder/snap.jpg" alt="Snapchat" class="snapchat-logo">
+                            </a>
+                        </div>
+                    </div>
             </div>
          </div>
       </div>
-      <script src="https://www.w3schools.com/lib/w3.js"></script>
-      <script>w3.includeHTML();</script>
    
     </body>
 </html>
