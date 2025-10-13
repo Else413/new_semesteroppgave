@@ -257,6 +257,9 @@ h1, h2, h3, p, table, ul, li {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 30px;
+}
+
+.members-grid a {
     text-decoration: none;
 }
 
@@ -268,7 +271,6 @@ h1, h2, h3, p, table, ul, li {
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    text-decoration: none;
 }
 
 .member-card:hover {
@@ -278,21 +280,17 @@ h1, h2, h3, p, table, ul, li {
 .member-info {
     flex: 1;
     margin-right: 20px;
-    text-decoration: none;
 }
 
 .member-info h3 {
     margin: 0 0 10px 0;
     color: #333;
     font-size: 20px;
-    text-decoration: none;
 }
 
 .member-info h3 a {
     color: #333;
-    text-decoration: none;
     transition: color 0.3s ease;
-    text-decoration: none;
 }
 
 .member-info h3 a:hover {
@@ -303,7 +301,6 @@ h1, h2, h3, p, table, ul, li {
     margin: 5px 0;
     color: #666;
     font-size: 14px;
-    text-decoration: none;
 }
 
 .member-info .role {
@@ -311,7 +308,6 @@ h1, h2, h3, p, table, ul, li {
     color: #4D4D4D;
     font-size: 14px;
     font-style: italic;
-    text-decoration: none;
 }
 
 .member-photo {
@@ -330,7 +326,6 @@ h1, h2, h3, p, table, ul, li {
 
 .member-photo a {
     display: block;
-    text-decoration: none;
 }
 
 .member-photo a:hover img {
