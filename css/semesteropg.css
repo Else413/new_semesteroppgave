@@ -460,7 +460,7 @@ h1, h2, h3, p, table, ul, li {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(2px, 600px);
+    grid-template-rows: repeat(2, 600px);
     gap: 1.5rem;
     padding: 2rem;
     justify-content: center;
