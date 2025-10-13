@@ -297,7 +297,6 @@ h1, h2, h3, p, table, ul, li {
 
 .member-info h3 a:hover {
     color: #007bff;
-    text-decoration: underline;
 }
 
 .member-info .email {
