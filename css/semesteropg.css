@@ -85,6 +85,7 @@ h1, h2, h3, p, table, ul, li {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 10;
+    background: transparent;
 }
 
 .meny {
