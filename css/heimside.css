@@ -97,7 +97,7 @@ a {
 }
 
 .transport-card p {
-    color: #585858;
+    color: #333;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -109,7 +109,7 @@ a {
 
 .info-list li {
     padding: 8px 0;
-    color: #555;
+    color: #333;
     border-bottom: 1px solid #eee;
 }
 
@@ -118,7 +118,7 @@ a {
 }
 
 .info-list li strong {
-    color: rgb(96, 117, 157);
+    color: #465472;
 }
 
 @media (max-width: 768px) {
