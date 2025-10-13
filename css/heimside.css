@@ -4,7 +4,6 @@
 }
 
 body {
-    background: ccc;
     margin-top: 100px;
 }
 
@@ -76,7 +75,7 @@ h1 {
     left: 0;
     right: 0;
     height: 5px;
-    background: rgb(96, 117, 157);
+    background:rgb(96, 117, 157);
 }
 
 .transport-card:hover {
@@ -115,7 +114,7 @@ a {
 
 .info-list li {
     padding: 8px 0;
-    color: #555;
+    color: #333;
     border-bottom: 1px solid #eee;
 }
 
