@@ -54,7 +54,7 @@ h1 {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
     cursor: pointer;
     overflow: hidden;
 }
@@ -66,7 +66,7 @@ h1 {
     left: 0;
     right: 0;
     height: 5px;
-    background: #000000;
+    background: rgb(37, 68, 126);
 }
 
 .transport-card:hover {
