@@ -66,11 +66,11 @@ body {
 }
 .profile_side h1 {
     font-size: 2rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .profile_side h2 {
     font-size: 1.3rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .info {
     background-color: #f5f5f7;
