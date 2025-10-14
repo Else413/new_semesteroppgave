@@ -45,10 +45,11 @@ body {
 
 .profile-card img {
   border-radius: 15px;
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 10%;
 }
 
 .profile-card h1 {
@@ -114,9 +115,10 @@ body {
 }
 
 .video-section video {
-  width: 100%;
-  height: fit-content;
+  width: 80%;
+  height:max-content;
   border-radius: 10px;
+  margin-left: 10%;
 }
 
 .video-section h1 {
@@ -161,7 +163,7 @@ body {
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   border-radius: 15px;
   padding: 30px;
-  margin-top: 290px;
+  margin-top: 50px;
   flex: 1;
   min-width: 100%;
   max-width: 400px;
