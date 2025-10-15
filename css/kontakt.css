@@ -94,7 +94,7 @@ h1, h2, h3, p, table, ul, li {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1001;
     border-radius: 5px;
     top: 100%;
@@ -188,6 +188,15 @@ button:hover {
     color: #fff;
     text-decoration: underline;
     font-weight: bold;
+    list-style: none;
+}
+
+.kontakt-hogre h2 {
+    margin-left: 32px;
+}
+
+.kontakt-hogre ol{
+    list-style-type: none;
 }
 
 /* kontaktside css */
@@ -199,9 +208,9 @@ button:hover {
 .kontakt-boks {
     background: #f2f2f2;
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
 
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0 5px 15px 0 rgba(28, 0, 181, 0.3);
 }
 
 .kontakt-venstre {
@@ -266,7 +275,7 @@ button {
     border-radius: 30px;
     margin-top: 20px;
     cursor: alias;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0 5px 15px 0 rgba(28, 0, 181, 0.3);
 }
 
 .kontakt-venstre h3 {
